@@ -1,0 +1,47 @@
+<body class="body-lr">
+
+    <div class="container-lr">
+        <form action="/register" method="post">
+            <h1 class="h1-lr">Cadastrar</h1>
+            <div class="input-lr">
+                <label for="name"></label>
+                <input placeholder="Nome" name="name" type="name" required />
+                <img width="20" height="20" src="https://img.icons8.com/ios/50/user--v1.png" alt="user" />
+            </div>
+
+            <div class="input-lr">
+                <label for="email"></label>
+                <input placeholder="E-mail" name="email" type="email" required />
+                <img width="20" height="20" src="https://img.icons8.com/?size=100&id=12580&format=png&color=000000"
+                    alt="lock" />
+            </div>
+
+            <div class="input-lr">
+                <label for="password"></label>
+                <input placeholder="Senha" name="password" type="password" required />
+                <img width="20" height="20" src="https://img.icons8.com/ios/50/lock--v1.png" alt="lock" />
+            </div>
+
+            <div class="input-lr">
+                <label for="confirmpassword"></label>
+                <input placeholder="Confirmar senha" name="confirmpassword" type="password" required />
+                <img width="20" height="20" src="https://img.icons8.com/ios/50/lock--v1.png" alt="lock" />
+            </div>
+
+            <!-- MESSAGES -->
+            <div class="container-messages">
+                {{#if messages.message}}
+                <div class="message">
+                    {{messages.message}}
+                </div>
+                {{/if}}
+            </div>
+
+            <button type="submit" class="submit-button">Cadastrar</button>
+        </form>
+
+        <div class="register">
+            <p>Já possui conta? <a href="/login">Entrar</a></p>
+        </div>
+    </div>
+</body>

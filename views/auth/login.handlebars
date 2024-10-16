@@ -1,0 +1,40 @@
+<body class="body-lr"></body>
+
+<div class="container-lr">
+    <form action="/login" method="post">
+        <h1 class="h1-lr">Iniciar sessão</h1>
+
+        <div class="input-lr">
+            <label for="email"></label>
+            <input placeholder="E-mail" name="email" type="email" required />
+            <img width="20" height="20" src="https://img.icons8.com/?size=100&id=12580&format=png&color=000000"
+                alt="lock" />
+        </div>
+
+        <div class="input-lr">
+            <label for="password"></label>
+            <input placeholder="Senha" name="password" type="password" required />
+            <img width="20" height="20" src="https://img.icons8.com/ios/50/lock--v1.png" alt="lock" />
+        </div>
+
+        <!-- MESSAGES -->
+        <div class="container-messages">
+            {{#if messages.message}}
+            <div class="message">
+                {{messages.message}}
+            </div>
+            {{/if}}
+        </div>
+
+        <div class="link-lr">
+            <a href="#">Esqueci minha senha</a>
+        </div>
+
+        <button type="submit" class="submit-button">Entrar</button>
+    </form>
+
+    <div class="register">
+        <p>Não tem uma conta? <a href="/register">Cadastrar</a></p>
+    </div>
+</div>
+</body>
