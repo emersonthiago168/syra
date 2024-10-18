@@ -76,7 +76,7 @@ section {
     font-size: 2rem;
 }
 
-.btn {
+.btn-home {
     background: var(--main-color);
     color: #fff;
     padding: 1rem 3rem;
@@ -86,7 +86,7 @@ section {
     display: inline-block;
 }
 
-.btn:hover {
+.btn-home:hover {
     letter-spacing: 0.1rem;
 }
 
@@ -555,3 +555,110 @@ div.single-galeria:hover div.conteudo {
     text-decoration: none; /* Remove o sublinhado */
     display: block; /* Torna o link um bloco */
 }
+
+/* SUPORTE */
+
+.body-suporte {
+    background-image: url('/img/Heartsteel.jpg');
+}
+
+.section-suporte {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 45px; /* Aumentado para mais espaço */
+    background: #2357c8ad;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.section-suporte h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.section-suporte form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section-suporte form label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-top: 20px; /* Espaço acima do rótulo */
+    margin-bottom: 4px; /* Espaço abaixo do rótulo */
+}
+
+.section-suporte form input, form textarea {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-top: 0; /* Remove margem superior dos inputs */
+    font-size: 15px;
+    transition: all 0.5s;
+    border-radius: 8px; /* Adicionado para consistência */
+}
+
+.section-suporte form textarea {
+    margin-top: 10px; /* Espaço acima da textarea */
+    margin-bottom: 30px; /* Espaço abaixo da textarea */
+}
+
+.section-suporte form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-top: 20px; /* Espaço acima do botão */
+    margin-bottom: 20px;
+}
+
+.section-suporte form button:hover {
+    background-color: #f5f5f5;
+    color: #101026;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #101026;
+    flex-direction: column;
+    padding: 20px; /* Adicionei padding para dar espaço ao redor do conteúdo */
+}
+
+.text {
+    font-size: 45px; /* Corrigido de font para font-size */
+    color: #f5f5f5;
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+    color: #f5f5f5;
+    margin-top: 20px; /* Ajustado para um espaço mais consistente */
+    margin-bottom: 30px; /* Adicionei margem inferior para espaçar do próximo elemento */
+}
+
+.btn {
+    padding: 15px 55px;
+    background: #f5f5f5;
+    text-decoration: none;
+    color: #101026;
+    font-size: 15px;
+    transition: all 0.5s;
+    margin-top: 20px; /* Adicionei margem superior para dar espaço ao botão */
+}
+
+.btn:hover {
+    border-radius: 16px;
+    background-color: #d3d3d3; /* Adicionado para um efeito visual mais claro ao passar o mouse */
+} 

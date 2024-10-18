@@ -8,4 +8,12 @@ module.exports = class SyraController {
     static async music(req,res){
         res.render('syra/music');
     }
+
+    static async suporte(req, res) {
+        res.render('syra/suporte');
+    }
+
+    static async obrigado(req, res) {
+        res.render('syra/obrigado');
+    }
 }
