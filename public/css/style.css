@@ -352,6 +352,9 @@ div.single-galeria:hover div.conteudo {
 .imgQuemsomos {
     padding: 0 15px;
     border-radius: 10px;
+    width: 450px;
+    height: 550px;
+    margin-right: 90px;
 }
 
 /* NOSSOS CLIENTES */
@@ -415,145 +418,214 @@ div.single-galeria:hover div.conteudo {
     --bg: #010103;
     --border: 0.1rem solid rgba(255, 255, 225, 0.3);
     --secu-color: #4fc3f7;
-    font-size: 10px; /* Tamanho base da fonte */
+    font-size: 10px;
+    /* Tamanho base da fonte */
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Facilita o controle de tamanho dos elementos */
-    font-family: "Roboto", sans-serif; /* Fonte padrão */
+    box-sizing: border-box;
+    /* Facilita o controle de tamanho dos elementos */
+    font-family: "Roboto", sans-serif;
+    /* Fonte padrão */
 }
 
 .body-lr {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Facilita o controle de tamanho dos elementos */
-    font-family: "Roboto", sans-serif; /* Fonte padrão */
+    box-sizing: border-box;
+    /* Facilita o controle de tamanho dos elementos */
+    font-family: "Roboto", sans-serif;
+    /* Fonte padrão */
     background-image: url('/img/Heartsteel.jpg');
     background-position: no-repeat center center fixed;
-    background-size: cover; /* Cobre toda a tela */
-    min-height: 100vh; /* Garante que o corpo ocupe pelo menos 100% da altura da viewport */
+    background-size: cover;
+    /* Cobre toda a tela */
+    min-height: 100vh;
+    /* Garante que o corpo ocupe pelo menos 100% da altura da viewport */
     display: flex;
-    flex-direction: column; /* Empilha elementos verticalmente */
-    align-items: center; /* Centraliza elementos horizontalmente */
-    justify-content: center; /* Centraliza elementos verticalmente */
+    flex-direction: column;
+    /* Empilha elementos verticalmente */
+    align-items: center;
+    /* Centraliza elementos horizontalmente */
+    justify-content: center;
+    /* Centraliza elementos verticalmente */
 }
 
 .logo-lr {
-    text-align: center; /* Centraliza a logo */
-    margin-bottom: 20px; /* Espaço abaixo da logo */
+    text-align: center;
+    /* Centraliza a logo */
+    margin-bottom: 20px;
+    /* Espaço abaixo da logo */
 }
 
 .logo-lr img {
-    max-width: 100%; /* Ajusta a largura máxima da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    width: 150px; /* Largura fixa para a logo */
+    max-width: 100%;
+    /* Ajusta a largura máxima da imagem */
+    height: auto;
+    /* Mantém a proporção da imagem */
+    width: 150px;
+    /* Largura fixa para a logo */
 }
 
 .container-lr {
-    width: 420px; /* Largura da div container */
-    background: transparent; /* Fundo transparente */
-    border: 2px solid #333; /* Borda escura */
-    backdrop-filter: blur(20px); /* Efeito de desfoque no fundo */
-    border-radius: 10px; /* Bordas arredondadas */
-    padding: 30px 40px; /* Espaçamento interno */
-    text-align: center; /* Centraliza texto dentro do container */
+    width: 420px;
+    /* Largura da div container */
+    background: transparent;
+    /* Fundo transparente */
+    border: 2px solid #333;
+    /* Borda escura */
+    backdrop-filter: blur(20px);
+    /* Efeito de desfoque no fundo */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    padding: 30px 40px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Centraliza texto dentro do container */
 }
 
 .h1-lr {
-    font-size: 36px; /* Tamanho do título */
-    color: #fff; /* Cor do título */
+    font-size: 36px;
+    /* Tamanho do título */
+    color: #fff;
+    /* Cor do título */
 }
 
 .input-lr {
-    position: relative; /* Necessário para o posicionamento absoluto do ícone */
-    width: 100%; /* Largura total */
-    height: 50px; /* Altura fixa */
-    margin: 20px 0; /* Margem vertical */
+    position: relative;
+    /* Necessário para o posicionamento absoluto do ícone */
+    width: 100%;
+    /* Largura total */
+    height: 50px;
+    /* Altura fixa */
+    margin: 20px 0;
+    /* Margem vertical */
 }
 
 .input-lr input {
-    width: 100%; /* Largura total */
-    height: 100%; /* Altura total */
-    background: transparent; /* Fundo transparente */
-    border: 2px solid var(--secu-color); /* Borda da entrada */
-    border-radius: 10px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte */
-    color: #fff; /* Cor do texto */
-    padding: 20px 45px 20px 20px; /* Espaçamento interno */
-    outline: none; /* Remove a borda de foco */
+    width: 100%;
+    /* Largura total */
+    height: 100%;
+    /* Altura total */
+    background: transparent;
+    /* Fundo transparente */
+    border: 2px solid var(--secu-color);
+    /* Borda da entrada */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    color: #fff;
+    /* Cor do texto */
+    padding: 20px 45px 20px 20px;
+    /* Espaçamento interno */
+    outline: none;
+    /* Remove a borda de foco */
 }
 
 .input-lr input::placeholder {
-    color: #fff; /* Cor do placeholder */
+    color: #fff;
+    /* Cor do placeholder */
 }
 
 .input-lr img {
-    position: absolute; /* Permite que o ícone flutue sobre o input */
-    top: 20%; /* Posição do ícone */
-    right: 24px; /* Distância da borda direita */
+    position: absolute;
+    /* Permite que o ícone flutue sobre o input */
+    top: 20%;
+    /* Posição do ícone */
+    right: 24px;
+    /* Distância da borda direita */
 }
 
 .link-lr {
-    margin-top: 5px; /* Espaçamento acima do link */
+    margin-top: 5px;
+    /* Espaçamento acima do link */
 }
 
 .link-lr a {
-    font-size: 16px; /* Tamanho do link */
-    color: #fff; /* Cor do link */
-    text-decoration: none; /* Remove o sublinhado */
-    display: block; /* Torna o link um bloco */
+    font-size: 16px;
+    /* Tamanho do link */
+    color: #fff;
+    /* Cor do link */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    display: block;
+    /* Torna o link um bloco */
 }
 
 .link-lr a:hover {
-    text-decoration: underline; /* Sublinha ao passar o mouse */
+    text-decoration: underline;
+    /* Sublinha ao passar o mouse */
 }
 
 .submit-button {
-    width: 100%; /* Largura total */
-    height: 50px; /* Altura fixa */
-    background-color: var(--main-color); /* Cor de fundo */
-    border: none; /* Remove a borda */
-    border-radius: 10px; /* Bordas arredondadas */
-    color: #fff; /* Cor do texto */
-    font-weight: 700; /* Peso da fonte */
-    margin-top: 20px; /* Margem acima do botão */
-    cursor: pointer; /* Muda o cursor ao passar o mouse */
-    outline: none; /* Remove a borda de foco */
+    width: 100%;
+    /* Largura total */
+    height: 50px;
+    /* Altura fixa */
+    background-color: var(--main-color);
+    /* Cor de fundo */
+    border: none;
+    /* Remove a borda */
+    border-radius: 10px;
+    /* Bordas arredondadas */
+    color: #fff;
+    /* Cor do texto */
+    font-weight: 700;
+    /* Peso da fonte */
+    margin-top: 20px;
+    /* Margem acima do botão */
+    cursor: pointer;
+    /* Muda o cursor ao passar o mouse */
+    outline: none;
+    /* Remove a borda de foco */
 }
 
 .submit-button:hover {
-    background-color: var(--secu-color); /* Cor ao passar o mouse */
+    background-color: var(--secu-color);
+    /* Cor ao passar o mouse */
 }
 
 .register {
-    text-align: center; /* Centraliza o texto da mensagem de registro */
-    margin-top: 20px; /* Margem acima da mensagem */
+    text-align: center;
+    /* Centraliza o texto da mensagem de registro */
+    margin-top: 20px;
+    /* Margem acima da mensagem */
 }
 
 .register p {
-    font-size: 15px; /* Tamanho da fonte do parágrafo */
-    color: #fff; /* Cor do texto */
+    font-size: 15px;
+    /* Tamanho da fonte do parágrafo */
+    color: #fff;
+    /* Cor do texto */
 }
 
 .register a {
-    color: var(--main-color); /* Cor do link de registro */
-    text-decoration: none; /* Remove o sublinhado */
+    color: var(--main-color);
+    /* Cor do link de registro */
+    text-decoration: none;
+    /* Remove o sublinhado */
 }
 
 .register a:hover {
-    text-decoration: underline; /* Sublinha ao passar o mouse */
+    text-decoration: underline;
+    /* Sublinha ao passar o mouse */
 }
 
 /* MESSAGES */
 .message {
     margin-top: 5px;
-    font-size: 16px; /* Tamanho do link */
+    font-size: 16px;
+    /* Tamanho do link */
     font-weight: bold;
-    color: var(--main-color); /* Cor do link */
-    text-decoration: none; /* Remove o sublinhado */
-    display: block; /* Torna o link um bloco */
+    color: var(--main-color);
+    /* Cor do link */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    display: block;
+    /* Torna o link um bloco */
 }
 
 /* SUPORTE */
@@ -568,7 +640,8 @@ div.single-galeria:hover div.conteudo {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 20px 45px; /* Aumentado para mais espaço */
+    padding: 20px 45px;
+    /* Aumentado para mais espaço */
     background: #2357c8ad;
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
@@ -589,23 +662,30 @@ div.single-galeria:hover div.conteudo {
 .section-suporte form label {
     color: #f5f5f5;
     font-size: 17px;
-    margin-top: 20px; /* Espaço acima do rótulo */
-    margin-bottom: 4px; /* Espaço abaixo do rótulo */
+    margin-top: 20px;
+    /* Espaço acima do rótulo */
+    margin-bottom: 4px;
+    /* Espaço abaixo do rótulo */
 }
 
-.section-suporte form input, form textarea {
+.section-suporte form input,
+form textarea {
     padding: 15px;
     outline: none;
     border: 0;
-    margin-top: 0; /* Remove margem superior dos inputs */
+    margin-top: 0;
+    /* Remove margem superior dos inputs */
     font-size: 15px;
     transition: all 0.5s;
-    border-radius: 8px; /* Adicionado para consistência */
+    border-radius: 8px;
+    /* Adicionado para consistência */
 }
 
 .section-suporte form textarea {
-    margin-top: 10px; /* Espaço acima da textarea */
-    margin-bottom: 30px; /* Espaço abaixo da textarea */
+    margin-top: 10px;
+    /* Espaço acima da textarea */
+    margin-bottom: 30px;
+    /* Espaço abaixo da textarea */
 }
 
 .section-suporte form button {
@@ -616,7 +696,8 @@ div.single-galeria:hover div.conteudo {
     border: 2px solid #f5f5f5;
     color: #f5f5f5;
     transition: all 1s;
-    margin-top: 20px; /* Espaço acima do botão */
+    margin-top: 20px;
+    /* Espaço acima do botão */
     margin-bottom: 20px;
 }
 
@@ -633,19 +714,23 @@ div.single-galeria:hover div.conteudo {
     min-height: 100vh;
     background-color: #101026;
     flex-direction: column;
-    padding: 20px; /* Adicionei padding para dar espaço ao redor do conteúdo */
+    padding: 20px;
+    /* Adicionei padding para dar espaço ao redor do conteúdo */
 }
 
 .text {
-    font-size: 45px; /* Corrigido de font para font-size */
+    font-size: 45px;
+    /* Corrigido de font para font-size */
     color: #f5f5f5;
     margin-bottom: 30px;
 }
 
 .paragrafo {
     color: #f5f5f5;
-    margin-top: 20px; /* Ajustado para um espaço mais consistente */
-    margin-bottom: 30px; /* Adicionei margem inferior para espaçar do próximo elemento */
+    margin-top: 20px;
+    /* Ajustado para um espaço mais consistente */
+    margin-bottom: 30px;
+    /* Adicionei margem inferior para espaçar do próximo elemento */
 }
 
 .btn {
@@ -655,10 +740,658 @@ div.single-galeria:hover div.conteudo {
     color: #101026;
     font-size: 15px;
     transition: all 0.5s;
-    margin-top: 20px; /* Adicionei margem superior para dar espaço ao botão */
+    margin-top: 20px;
+    /* Adicionei margem superior para dar espaço ao botão */
 }
 
 .btn:hover {
     border-radius: 16px;
-    background-color: #d3d3d3; /* Adicionado para um efeito visual mais claro ao passar o mouse */
-} 
+    background-color: #d3d3d3;
+    /* Adicionado para um efeito visual mais claro ao passar o mouse */
+}
+
+/* MUSICAS */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.body-music {
+    width: 100%;
+    height: 100vh;
+    background-color: #131312;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-music {
+    width: 85%;
+    height: 85%;
+    border: 1px solid #fff;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 120px;
+}
+
+.header-music .menu_side,
+.song_side {
+    position: relative;
+    width: 25%;
+    height: 90%;
+    /* border: 1px solid #fff; */
+    background-color: #111727;
+    box-shadow: 5px 0px 2px #090f1f;
+    color: #fff;
+}
+
+.header-music .song_side {
+    width: 75%;
+    background: #0b1320;
+}
+
+.header-music .master_play {
+    width: 100%;
+    height: 10%;
+    background: #111727;
+    box-shadow: 0px 3px 8px #090f1f;
+}
+
+.header-music .menu_side h1 {
+    font-size: 30px;
+    margin: 15px 0px 0px 20px;
+    font-weight: 500;
+}
+
+.header-music .menu_side .playlist {
+    margin: 40px 0px 0px 20px;
+}
+
+.header-music .menu_side .playlist h4 {
+    font-size: 21px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #4c5262;
+    transition: .3s linear;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.header-music .menu_side .playlist h4:hover {
+    color: #fff;
+}
+
+.header-music .menu_side .playlist h4 span {
+    position: relative;
+    margin-right: 35px;
+}
+
+.header-music .menu_side .playlist h4 span::before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border: 2px solid #4c5262;
+    border-radius: 50%;
+    top: -4px;
+    transition: 3s linear;
+}
+
+.header-music .menu_side .playlist h4:hover span::before {
+    border: 2px solid #fff;
+}
+
+.header-music .menu_side .playlist h4 .bi {
+    display: none;
+}
+
+.header-music .menu_side .playlist .active {
+    color: #36e2ec;
+}
+
+.header-music .menu_side .playlist .active span {
+    display: none;
+}
+
+.header-music .menu_side .playlist .active .bi {
+    display: flex;
+    margin-right: 20px;
+}
+
+.header-music .menu_side .menu_song {
+    width: 100%;
+    height: 360px;
+    /*border: 1px solid #fff; */
+    margin-top: 40px;
+}
+
+.header-music .menu_side .menu_song li {
+    position: relative;
+    list-style-type: none;
+    padding: 5px 0px 5px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 3 linear;
+}
+
+.header-music .menu_side .menu_song li:hover {
+    background: rgb(105, 105, 170, .1);
+}
+
+.header-music .menu_side .menu_song li span {
+    font-size: 12px;
+    font-weight: 600;
+    color: #4c5262
+}
+
+.header-music .menu_side .menu_song li img {
+    width: 42px;
+    height: 42px;
+    margin-left: 25px;
+}
+
+.header-music .menu_side .menu_song li h5 {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.header-music .menu_side .menu_song .subtitle {
+    font-size: 12px;
+    color: #4c5262
+}
+
+.header-music .menu_side .menu_song li .bi {
+    position: absolute;
+    right: 15px;
+    top: 14px;
+    font-size: 20px;
+}
+
+.header-music .master_play {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-music .master_play .wave {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #fff; */
+    padding-bottom: 5px;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 10px;
+}
+
+.header-music .master_play .wave .wave1 {
+    width: 3px;
+    height: 10px;
+    margin-right: 3px;
+    border-radius: 10px 10px 0px 0px;
+    background: #36e2ec;
+    animation: unset;
+}
+
+.header-music .master_play .wave .wave1:nth-child(2) {
+    height: 13px;
+    /* animation-delay: .4s; */
+}
+
+.header-music .master_play .wave .wave1:nth-child(3) {
+    height: 8px;
+    /* animation-delay: .8s; */
+}
+
+/* javascript class wave */
+
+.header-music .master_play .active2 .wave1 {
+    animation: wave .5s linear infinite;
+}
+
+.header-music .master_play .active2 .wave1:nth-child(2) {
+    animation-delay: .4s;
+}
+
+.header-music .master_play .active2 .wave1:nth-child(3) {
+    animation-delay: .8s;
+}
+
+@keyframes wave {
+    0% {
+        height: 10px;
+    }
+
+    50% {
+        height: 15px;
+    }
+
+    100% {
+        height: 10px;
+    }
+}
+
+
+.header-music .master_play img {
+    width: 60px;
+    height: 60px;
+}
+
+.header-music .master_play h5 {
+    width: 130px;
+    height: 40px;
+    margin-left: 15px;
+    color: #fff;
+    line-height: 20px;
+}
+
+.header-music .master_play .subtitle {
+    font-size: 11px;
+    color: #4c5262
+}
+
+.header-music .master_play .icon {
+    font-size: 20px;
+    color: #fff;
+    margin: 0px 20px 0px 40px;
+}
+
+.header-music .master_play .bi {
+    cursor: pointer;
+    outline: none;
+}
+
+.header-music .master_play .bi:nth-child(2) {
+    border: 1px solid rgb(105, 105, 170, .1);
+    border-radius: 50%;
+    padding: 1px 3px 0px 6px;
+    margin: 0px 5px;
+    transition: .3s linear;
+}
+
+.header-music .master_play span {
+    color: #fff;
+    width: 32px;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.header-music .master_play #currentStart {
+    margin: 0px 0px 0px 20px;
+}
+
+.header-music .master_play .bar {
+    position: relative;
+    width: 43%;
+    height: 2px;
+    background: rgb(105, 105, 170, .1);
+    margin: 0px 15px 0px 10px;
+}
+
+.header-music .master_play .bar2 {
+    position: absolute;
+    background: #36e2ec;
+    width: 0%;
+    height: 100%;
+    top: 0;
+
+}
+
+.header-music .master_play .dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #36e2ec;
+    border-radius: 50%;
+    left: 0%;
+    top: -1px;
+    transition: 1s linear;
+
+}
+
+.header-music .master_play .dot::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #36e2ec;
+    border-radius: 50%;
+    left: -6px;
+    top: -6px;
+    box-shadow: inset 0px 0px 3px #36e2ec;
+
+}
+
+.header-music .master_play .bar input {
+    position: absolute;
+    width: 100%;
+    top: -6px;
+    left: 0;
+    cursor: pointer;
+    z-index: 99999999;
+    transition: 3s linear;
+    opacity: 0;
+
+}
+
+.header-music .master_play .vol {
+    position: relative;
+    width: 100px;
+    height: 2px;
+    margin-left: 50px;
+    background: rgb(105, 105, 170, .1);
+
+}
+
+.header-music .master_play .vol .bi {
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    top: -17px;
+    left: -30px;
+
+}
+
+.header-music .master_play .vol input {
+    position: absolute;
+    width: 100%;
+    top: -10px;
+    left: 0;
+    cursor: pointer;
+    z-index: 99999999;
+    transition: 3s linear;
+    opacity: 0;
+
+}
+
+.header-music .master_play .vol .vol_bar {
+    position: absolute;
+    background: #36e2ec;
+    width: 0%;
+    height: 100%;
+    top: 0;
+
+}
+
+.header-music .master_play .vol .dot {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background: #36e2ec;
+    border-radius: 50%;
+    left: 0%;
+    top: -1px;
+    transition: 1s linear;
+
+}
+
+.header-music .master_play .vol::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #36e2ec;
+    border-radius: 50%;
+    left: -6px;
+    top: -6px;
+    box-shadow: inset 0px 0px 3px #36e2ec;
+
+}
+
+.header-music .song_side {
+    z-index: 2;
+}
+
+.header-music .song_side::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background: url(/img/Eve\ More.jpg);
+    z-index: -1;
+}
+
+.header-music .song_side nav {
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    /* border: 1px solid #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.header-music .song_side nav ul {
+    display: flex;
+}
+
+.header-music .song_side nav ul li {
+    position: relative;
+    list-style-type: none;
+    font-size: 13px;
+    color: #4c5262;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.header-music .song_side nav ul li:hover {
+    color: #fff;
+}
+
+.header-music .song_side nav ul li:nth-child(1) {
+    color: #fff;
+}
+
+.header-music .song_side nav ul li span {
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    background: #36e2ec;
+    bottom: -5px;
+    left: 0;
+    border-radius: 20px;
+}
+
+.header-music .song_side nav .search {
+    position: relative;
+    width: 40%;
+    padding: 1px 10px;
+    border-radius: 20px;
+    color: gray
+}
+
+.header-music .song_side nav .search::before {
+    position: absolute;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: rgb(184, 184, 184, .1);
+    backdrop-filter: blur(Spx);
+    z-index: -1;
+}
+
+.header-music .song_side nav .search .bi {
+    font-size: 13px;
+    padding: 3px 0px 0px 10px;
+}
+
+.header-music .song_side nav .search input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0px 10px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.header-music .song_side nav .user {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.header-music .song_side nav .user img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px #131312;
+}
+
+.header-music .song_side .content {
+    width: 90%;
+    height: 30%;
+    margin: auto;
+    /*border: 1px solid #fff; */
+    padding-top: 20px;
+}
+
+.header-music .song_side .content h1 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.header-music .song_side .content p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #4c5262;
+    margin: 5px;
+}
+
+.header-music .song_side .content .buttons {
+    margin-top: 15px;
+}
+
+.header-music .song_side .content .buttons button {
+    width: 130px;
+    height: 30px;
+    border: 2px solid #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s linear;
+}
+
+.header-music .song_side .content .buttons button:hover {
+    border: 2px solid #36e2ec;
+    background: none;
+    color: #36e2ec;
+}
+
+.header-music .song_side .content .buttons button:nth-child(2) {
+    border: 2px solid #36e2ec;
+    background: none;
+    color: #36e2ec;
+}
+
+.header-music .song_side .content .buttons button:nth-child(2):hover {
+    border: 2px solid #36e2ec;
+    background: #36e2ec;
+    color: #fff;
+}
+
+.header-music .song_side .popular_song {
+    width: 90%;
+    height: auto;
+    /* border: 1px solid #fff; */
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.header-music .song_side .popular_song .h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-music .song_side .popular_song .h4 .bi {
+    color: #a4a8b4;
+    cursor: pointer;
+    transform-origin: 3s linear;
+
+}
+
+.header-music .song_side .popular_song .h4 .bi:hover {
+    color: #fff;
+
+}
+
+.header-music .song_side .popular_song .pop_song {
+    width: 100%;
+    min-height: 150px;
+    margin-top: 15px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.header-music .song_side .popular_song .pop_song::-webkit-scrollbar {
+    display: none;
+}
+
+.header-music .song_side .popular_song .pop_song li {
+    min-height: 100px;
+    height: 140px;
+    list-style-type: none;
+    margin-right: 10px;
+    transition: .3s linear;
+}
+
+.header-music .song_side .popular_song .pop_song li:hover {
+    background: rgb(105, 105, 170, .1);
+}
+
+.header-music .song_side .popular_song .pop_song li .img_play {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-music .song_side .popular_song .pop_song li .img_play img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-music .song_side .popular_song .pop_song li .img_play .bi {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s linear;
+    /* achei aqui */
+    opacity: 0;
+    /* achei aqui */
+}
+
+.header-music .song_side .popular_song .pop_song li .img_play:hover .bi {
+    opacity: 1;
+}
+
+.header-music .song_side .popular_song .pop_song li h5 {
+    padding: 5px 0px 0px 5px;
+    line-height: 15px;
+    font-size: 10px;
+}
+
+.header-music .song_side .popular_song .pop_song li h5 .subtitle {
+    font-size: 9px;
+    color: #4c5262
+}

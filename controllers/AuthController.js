@@ -74,7 +74,7 @@ module.exports = class AuthController {
             req.session.userid = createdUser.id
 
             req.session.save(() => {
-                res.redirect('/');
+                res.redirect('/syra/musicas');
             })
         } catch (error) {
             console.log(error)
